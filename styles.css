@@ -1,6 +1,6 @@
 
 body{
-    background-color:white;
+    background-color:black;
     font-family: 'Handlee', cursive; 
     /* para encontrar la fuente tuve que ir al video */
 }
@@ -9,7 +9,7 @@ body{
     float: right;
     width: 60px;
     position: relative;
-    top: -115px;
+    top: -20px;
 }
 
 .post{
@@ -34,6 +34,7 @@ body{
 .formulario input[type=text]{
     font-family: 'Handlee', cursive; 
     border: none;
+    border-bottom: 1px solid black;
     color: gray;
     padding: 5px;
 }
@@ -43,6 +44,7 @@ input {
 }
 footer{
     clear:both;
+    text-align: center;
 }
 
 footer input[type=submit]{
